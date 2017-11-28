@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+<body>
+	<p>Chnage the value of the input field : </p>
+	<div ng-app="" ng-init="myCol='lightblue'">
+	<input style="background-color:{{ myCol }}" ng-model="myCol" value="{{ myCol }}">
+	</div>
+	<p>Angularjs resolves the expression and returns the result</p>
+</body>
+</html>
