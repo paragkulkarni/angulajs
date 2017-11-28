@@ -1,1 +1,1 @@
-# angulajs
+# angularjs
